@@ -8,10 +8,13 @@ int main(int argc, const char *argv[])
 	// please pass day number query on
 	// command line to run model
 	// 353 Nov 20th 2020 00:00 UTC
+	// 912 is 2.5 yrs
+	// 945 is 2.5 yrs after Jan 5 bottom
 	int u = atoi(argv[1]);
 
 	// eth price on Dec 4th 2019 open
-	double a = 142.92;
+	// 142.92
+	double a = 150.68;
 	
 	// hex per eth on Dec 4th 2019 open
 	double b = 47584;
@@ -20,7 +23,8 @@ int main(int argc, const char *argv[])
 	double c = 1.3;
 	
 	// eth price on May 14th 2020 open
-	double e = 198.89;
+	// 198.89
+	double e = 192.5954;
 	
 	// hex per eth on May 14th 2020 open
 	double f = 23905;
